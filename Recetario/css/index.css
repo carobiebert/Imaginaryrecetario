@@ -1,0 +1,60 @@
+.title{
+    font-family: 'Pattaya', sans-serif;
+} 
+.title__recetario{
+    color: #34495E;
+    font-size: 1.2em;
+}
+/* NAV */
+
+.header {
+    background-color: #581845;
+}
+.header__nav {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        padding: 3px; 
+        box-sizing: border-box;    
+}
+.header__nav__ul__li {
+    background-color: #855276;
+    display: inline-block;
+    border: 3px solid #87264b;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
+}
+a:link {
+  color: #ffc0cb;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffc0cb;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f5f5f5;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #385f7e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline #ffc0cb;
+    height: 10px;
+    padding-bottom: 30px;
+}
